@@ -1,0 +1,125 @@
+.navbar {
+	height:80px;
+	transition: all 0.4s ease;
+}
+
+.navbar-header {
+margin-top:5px;
+}
+
+.navbar-header.shrink {
+margin-top:-15px;
+}
+
+.navbar-right {
+	margin-top:15px;
+
+	li {
+		font-size:1.4em;
+	}
+
+	.btn {
+		background-color:$color-primary;
+		color: $color-white;
+		border: solid 1px $color-primary;
+		padding:10px;
+		padding-left:15px;
+		padding-right:15px;
+		margin-top:5px;
+		margin-left:10px;
+		margin-right:10px;
+
+	}
+
+	
+}
+
+.navbar-brand img {
+	max-width:150px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+color: $color-white;
+}
+
+.navbar-inverse {
+background-color: $color-secondary;
+border-color: $color-secondary;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+border-color: $color-secondary;
+}
+
+.navbar-collapse {
+padding-right: 15px;
+padding-left: 15px;
+overflow-x: visible;
+-webkit-overflow-scrolling: touch;
+border-top: 1px solid transparent;
+-webkit-box-shadow: none; 
+box-shadow: none;
+text-align: center;
+background-color: $color-secondary;
+
+@media (min-width: 768px) { 
+	background-color: transparent;
+}
+}
+
+.navbar-inverse .navbar-toggle {
+border-color: $color-secondary;
+margin-top: 18px;
+}
+
+.navbar-toggle.shrink {
+margin-top: 10px;
+border-color: $color-secondary;
+		}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+background-color: $color-secondary;
+}
+
+//On-Scroll
+
+.navbar.shrink {
+		height:60px;
+		transition: all 0.4s ease;
+	}
+
+.sa-nav.shrink {
+
+
+	.navbar-brand img {
+		margin-top:-5px;
+		max-width: 120px;
+	}
+
+	.navbar-right {
+
+		margin-top:5px;
+
+	li {
+		font-size:1.4em;
+	}
+
+	a.btn {
+		font-size:1em;
+	}
+
+
+	.btn {
+		background-color:$color-primary;
+		color: $color-white;
+		border: solid 1px $color-primary;
+		padding:5px;
+		padding-left:10px;
+		padding-right:10px;
+		margin-top:10px;
+		margin-left:10px;
+		margin-right:10px;
+
+	}
+}
+}

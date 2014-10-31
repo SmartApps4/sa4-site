@@ -1,0 +1,42 @@
+.btn-start {
+	font-size:1.6em;
+	margin-right:20px;
+	background-color:$color-primary;
+	color:$color-white;
+	padding:10px 30px 10px 30px;
+
+}
+
+.btn-start:hover {
+		color:$color-white;
+		background-color: darken( $color-primary, 5% )
+	}
+
+.btn-learn {
+	font-size: 1.6em;
+	background-color:$color-secondary;
+	color:$color-white;
+	padding:10px 30px 10px 30px;
+
+	.fa {
+		margin-left:10px;
+		margin-right:-10px;
+	}
+}
+
+.btn-learn:hover {
+		color:$color-white;
+		background-color: darken( $color-secondary, 5% )
+	}
+
+.btn-assessment {
+	color:$color-white;
+	background-color: $color-ocean;
+	font-size: 1.6em;
+	padding:10px 30px 10px 30px;
+}
+
+.btn-assessment:hover {
+	color:$color-white;
+	background-color: darken( $color-ocean, 5% )
+}

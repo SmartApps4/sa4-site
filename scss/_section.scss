@@ -1,0 +1,156 @@
+section {
+    padding: 40px 0;
+    background-color:#fff;
+
+    h1 {
+    	font-size:3em;
+    }
+    h3 {
+    	font-size:2em;
+    }
+
+    p {
+    	font-size:1.4em;
+    }
+}
+
+
+section.gray {
+    background-color: $color-lightGray;
+}
+
+section.call-to-action {
+	border-top: 1px solid $color-midGray;
+}
+
+.main-heading {
+	height:500px;
+	padding-top:60px;
+	position:relative;
+
+	background: url(../img/coffeeShop.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow:hidden;
+
+  .tagline {
+  	margin-top:20px;
+  	padding:0px;
+  }
+
+  .header {
+  		color:$color-white;
+  		text-transform: uppercase;
+  		font-size:3.2em;
+  	}
+
+	.sub-header {
+		color:$color-white;
+		font-weight: 400;
+	}
+
+	.iphone-preview {
+
+		position:absolute;
+		top:24px;
+		right:60px;
+
+		@media (min-width: 992px) and (max-width: 1200px) { 
+
+		top: -8px;
+		right: -10px;
+
+		}
+
+		
+	}
+
+	.cta {
+		margin-top:80px;
+		padding:0px;
+	}
+
+	.scroll {
+		position:absolute;
+		left:50%;
+		bottom:-150px;
+
+		.fa {
+			position:relative;
+			font-size:20px;
+			color:$color-white;
+			opacity:.6;
+		}
+	}
+}
+
+.intro {
+	height:200px;
+	padding-top:60px;
+	position:relative;
+	color:$color-white;
+	text-align: center;
+
+	h1 {
+		font-size: 4em;
+		margin-top:10px;
+	}
+}
+
+.intro-about {
+
+	background: url(../img/aboutUs.jpg) no-repeat center center fixed; 
+ 	 -webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	overflow:none;
+}
+
+.intro-services {
+
+	background: url(../img/services.jpg) no-repeat center center fixed; 
+ 	 -webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	overflow:none;
+}
+
+.intro-solutions {
+
+	background: url(../img/solutions.jpg) no-repeat center center fixed; 
+ 	 -webkit-background-size: cover;
+ 	 -moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	overflow:none;
+}
+
+.page-header {
+	font-size:3em;
+}
+
+.mobileAssessment {
+	padding:20px;
+	text-align: center;
+
+	h1 {
+		font-size:3em;
+		margin-top:0px;
+	}
+
+	h3 {
+		font-size:2em;
+		margin-bottom:30px;
+	}
+
+}
+
+.legal {
+	p {
+		font-size:1.4em;
+	}
+}

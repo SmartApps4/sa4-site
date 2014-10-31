@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="282px" height="77px" viewBox="0 0 282 77" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo-White 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Overview" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Artboard-7" sketch:type="MSArtboardGroup" transform="translate(-56.000000, -40.000000)">
+            <g id="Logo-White-3" sketch:type="MSLayerGroup" transform="translate(54.000000, 33.000000)">
+                <ellipse id="Oval-1" fill="#32425C" sketch:type="MSShapeGroup" cx="136.032759" cy="81.4850299" rx="132.5" ry="2.51497006"></ellipse>
+                <text id="Smartapps" fill="#FFFFFF" sketch:type="MSTextLayer" font-family="Sansation" font-size="55.5741588" font-weight="normal" letter-spacing="-0.699999988">
+                    <tspan x="0.0339916154" y="58.2718631">Smart</tspan>
+                    <tspan x="147.816187" y="58.2718631" font-weight="bold">apps</tspan>
+                </text>
+                <text id="4" fill="#8CCA2D" sketch:type="MSTextLayer" font-family="Sansation" font-size="32.1635958" font-weight="normal">
+                    <tspan x="267.836017" y="29.0202433" fill="#A5E346">4</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,1 @@
+$(window).scroll(function(){$(this).scrollTop()>50?($(".sa-nav").addClass("shrink"),$(".navbar").addClass("shrink"),$(".navbar-toggle").addClass("shrink")):($(".sa-nav").removeClass("shrink"),$(".navbar").removeClass("shrink"),$(".navbar-toggle").removeClass("shrink"))});
